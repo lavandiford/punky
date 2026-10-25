@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- iOS PWA tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Punky Pug">
+    <!-- Place the generated icon image in the same folder as this file and name it icon.jpg -->
+    <link rel="apple-touch-icon" href="icon.jpg">
+    
+    <title>Punky The Punk Rock Pug</title>
+    <style>
+        body { 
+            background-color: #1a1a1a; 
+            color: #fff; 
+            font-family: 'Courier New', Courier, monospace; 
+            margin: 0; 
+            padding: 0; 
+            text-align: center; 
+            overflow-x: hidden; 
+        }
+        .container { padding: 20px; }
+        h1 { 
+            color: #39ff14; 
+            text-transform: uppercase; 
+            font-size: 2em; 
+            text-shadow: 2px 2px #ff00ff; 
+            margin-bottom: 5px; 
+        }
+        .subtitle { color: #ff00ff; font-style: italic; margin-top: 0; }
+        .menu-box { 
+            border: 3px dashed #fff; 
+            padding: 20px; 
+            margin: 20px auto; 
+            max-width: 400px; 
+            background: #222; 
+            box-shadow: 5px 5px 0px #39ff14; 
+        }
+        .btn { 
+            display: block; 
+            width: 100%; 
+            padding: 15px; 
+            margin: 10px 0; 
+            background: #ff00ff; 
+            color: #fff; 
+            text-decoration: none; 
+            font-size: 1.2em; 
+            font-weight: bold; 
+            border: 2px solid #fff; 
+            box-shadow: 3px 3px 0px #fff; 
+            text-transform: uppercase;
+            box-sizing: border-box;
+        }
+        .btn:active { 
+            transform: translate(3px, 3px); 
+            box-shadow: none; 
+        }
+        .content-section { 
+            text-align: left; 
+            max-width: 600px; 
+            margin: 20px auto; 
+            border-top: 2px solid #333; 
+            padding-top: 20px; 
+        }
+        .content-section h2 { 
+            color: #00ffff; 
+            border-bottom: 1px solid #00ffff; 
+            padding-bottom: 5px; 
+        }
+        .content-section ul { padding-left: 20px; }
+        .content-section li { margin-bottom: 10px; line-height: 1.4; }
+        .tag { 
+            display: inline-block; 
+            background: #39ff14; 
+            color: #000; 
+            padding: 2px 5px; 
+            font-weight: bold; 
+            font-size: 0.8em; 
+            margin-right: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Punky The Punk Rock Pug</h1>
+        <p class="subtitle">Interactive Design Document</p>
+
+        <div class="menu-box">
+            <h2>The Green Room</h2>
+            <a href="#" class="btn" onclick="alert('Cue drum fill! Running to the stage...')">Start Game (Setlist)</a>
+            <a href="#" class="btn" onclick="alert('Opening The Merch Table...')">The Merch Table</a>
+            <a href="#" class="btn" onclick="alert('Adjusting the Amp (Settings)...')">Settings (The Amp)</a>
+        </div>
+
+        <div class="content-section">
+            <h2>Game Overview</h2>
+            <p>A fast-paced rhythmic runner where you guide Punky, a stubborn punk rock pug, through city obstacles to reach his band's show before the countdown timer hits zero.</p>
+
+            <h2>Key Mechanics</h2>
+            <ul>
+                <li><span class="tag">Timer</span> The core enemy is the clock. Every second left is points.</li>
+                <li><span class="tag">The Pug Sit</span> Deplete your stamina and Punky sits. Complete a rapid "crinkle bag" rhythm mini-game to get him up.</li>
+                <li><span class="tag">Distractions</span> Dropped lamb treats and squirrels lure Punky off the optimal path.</li>
+                <li><span class="tag">Mosh Pit Zoomies</span> Collect 3 studded collars for a screen-clearing invincibility sprint.</li>
+            </ul>
+
+            <h2>Boss: Princess the Pop Poodle</h2>
+            <p>A pristine show poodle on a tour bus firing synth-pop music notes and hairspray. Defeat her by splashing her with city grime from a fire hydrant.</p>
+
+            <h2>Levels</h2>
+            <ul>
+                <li>1. The Grooming Salon (The Breakout)</li>
+                <li>2. The City Park (The Distraction Zone)</li>
+                <li>3. The Subway Terminus (The Underground)</li>
+                <li>4. The Neon Gridlock (The Homestretch)</li>
+            </ul>
+        </div>
+        
+        <p style="color: #666; font-size: 0.8em; margin-top: 40px; padding-bottom: 30px;">
+            Save to Home Screen in Safari for the full app experience!
+        </p>
+    </div>
+</body>
+</html>
